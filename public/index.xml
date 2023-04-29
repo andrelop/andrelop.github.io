@@ -23,7 +23,9 @@ It took me many years to actually manage to distance myself from the most manual
       <pubDate>Sat, 29 Apr 2023 17:35:56 -0300</pubDate>
       
       <guid>http://andrelop.org/posts/my-first-post/</guid>
-      <description>First Post This is yet another attempt to create a personal website. This time it&amp;rsquo;s made using Hugo and hosted on GitHub Pages.</description>
+      <description>First Post This is yet another attempt to create a personal website. This time it&amp;rsquo;s made using Hugo and hosted on GitHub Pages.
+I write the posts locally using some text editor (currently I use VS Code), check if they are OK running hugo server and if so, I just commit the posts to a GitHub repository.
+This triggers a Git Hub Actions pipeline which actually builds and deploys the website.</description>
     </item>
     
   </channel>

@@ -1,0 +1,4 @@
+baseURL = 'http://andrelop.org/'
+languageCode = 'en-us'
+title = 'andrelop.org'
+theme = 'ananke'

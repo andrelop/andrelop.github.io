@@ -101,8 +101,8 @@ It took me many years to actually manage to distance myself from the most manual
   "keywords": [
     
   ],
-  "articleBody": "Personal Update What am I up to ? Well, I’m still working but these days I’m not exactly doing the same kind of work I used to do back in the day.\nIt took me many years to actually manage to distance myself from the most manual work. It’s still manual in the sense that my main work tool is a keyboard and I type at it the whole day, but I digress.\nI still work with infrastructure but it took me some time to understand that infrastructure now is not really metal (you do not really rack servers yourself in a datacenter.\nI used to work on a company which had it’s own datacenter so when people said that you worked with infrastructure there it most likely meant that you got your hands dirty and went to that cold place where a really large amount of servers live in order to mess with servers, cables and stuff.\nToday I work on an infrastructure team but there’s no real physical infrastructure to be managed at all. We are using 100% cloud infrastructure and the team I’m working on is one the teams which creates infrastructure on the cloud by writing a bunch of pseudo-code.\nWe then use a tool which reads this pseudo-code and talks to the cloud provider APIs to command it to actually spin up resources. These resources are things like clusters, which are just a bunch of servers. Virtual servers as we are in a cloud context here.\nWe also happen to support some development teams by debugging what some people also consider these days as infrastructure code, but which is not exactly the same kind of infrastructure code our team writes.\nThis infrastrucuture code the development teams are writing are a bunch of YAML which is used to declaratively create deployments for the real application code they are also writing in a more complete programming language.\nOur team deploys and maintains the infrastructure (the cluster) under which the development team’s deployments run.\nWe also happen to deploy and maintain a solution for doing GitOps, which is a fancy term to say that when someone commits this bunch of YAML to a source code repository, this YAML code automatically gets synced to a cluster and then the application deployments are magically created inside this cluster.\nAditionally, when the development teams have trouble with their deployments we help them by troubleshooting these deployments in order to find out where’s the issue. They mostly seem to think the issue is in our layer of the infrastructure (the cluster).\nMost of the time it turns out that the issue is not really in the cluster but in the YAML files they are writing to do their deployments and not really in the cluster.\nThis is currently my day-to-day job. A mixture of multiple technologies which no sane non-technicall people would like to talk about.\n",
-  "wordCount" : "484",
+  "articleBody": "Personal Update What am I up to ? Well, I’m still working but these days I’m not exactly doing the same kind of work I used to do back in the day.\nIt took me many years to actually manage to distance myself from the most manual work. It’s still manual in the sense that my main work tool is a keyboard and I type at it the whole day, but I digress.\nI still work with infrastructure but it took me some time to understand that infrastructure now is not really metal (you do not really rack servers yourself in a datacenter).\nI used to work on a company which had it’s own datacenter so when people said that you worked with infrastructure there it most likely meant that you got your hands dirty and went to that cold place where a really large amount of machines live in order to mess with servers, cables and stuff.\nToday I work on an infrastructure team but there’s no real physical infrastructure to be managed at all. We are using 100% cloud infrastructure and the team I’m working on is one of the teams which creates infrastructure on the cloud by writing a bunch of pseudo-code.\nWe then use a tool which reads this pseudo-code and talks to the cloud provider APIs to command it to actually spin up resources. These resources are things like clusters, which are just a bunch of servers. Virtual servers as we are in a cloud context here.\nWe also happen to support some development teams by debugging what some people also consider these days as infrastructure code, but which is not exactly the same kind of infrastructure code our team writes.\nThis infrastrucuture code the development teams are writing are a bunch of YAML which is used to declaratively create deployments for the real application code they are also writing in a more complete programming language.\nOur team deploys and maintains the infrastructure (the cluster) under which the development team’s deployments run.\nWe also happen to deploy and maintain a solution for doing GitOps, which is a fancy term to say that when someone commits this bunch of YAML to a source code repository, this YAML code automatically gets synced to a cluster and then the application deployments are magically created inside this cluster.\nAditionally, when the development teams have trouble with their deployments we help them by troubleshooting these deployments in order to find out where’s the issue. They mostly seem to think the issue is in our layer of the infrastructure (the cluster).\nMost of the time it turns out that the issue is not really in the cluster but in the YAML files they are writing to do their deployments.\nThis is currently my day-to-day job. A mixture of multiple technologies which no sane non-technicall people would like to talk about.\n",
+  "wordCount" : "479",
   "inLanguage": "en",
   "datePublished": "2023-04-29T18:08:02-03:00",
   "dateModified": "2023-04-29T18:08:02-03:00",
@@ -162,6 +162,11 @@ It took me many years to actually manage to distance myself from the most manual
             </div>
         </div>
         <ul id="menu">
+            <li>
+                <a href="http://andrelop.org/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
@@ -185,15 +190,15 @@ doing the same kind of work I used to do back in the day.</p>
 keyboard and I type at it the whole day, but I digress.</p>
 <p>I still work with infrastructure but it took me some time to understand that
 infrastructure now is not really <em>metal</em> (you do not really rack servers
-yourself in a <a href="https://aws.amazon.com/what-is/data-center/">datacenter</a>.</p>
+yourself in a <a href="https://aws.amazon.com/what-is/data-center/">datacenter</a>).</p>
 <p>I used to work on a company which had it&rsquo;s own datacenter so when people
 said that you worked with infrastructure there it most likely meant that
 you got your hands dirty and went to that cold place where a really large
-amount of servers live in order to mess with <a href="https://en.wikipedia.org/wiki/Server_(computing)">servers</a>,
+amount of machines live in order to mess with <a href="https://en.wikipedia.org/wiki/Server_(computing)">servers</a>,
 <a href="https://en.wikipedia.org/wiki/Networking_cables">cables</a> and stuff.</p>
 <p>Today I work on an <em>infrastructure</em> team but there&rsquo;s no real physical
 infrastructure to be managed at all. We are using 100% cloud infrastructure
-and the team I&rsquo;m working on is one the teams which <em>creates</em> infrastructure
+and the team I&rsquo;m working on is one of the teams which <em>creates</em> infrastructure
 on the cloud by writing a bunch of <a href="https://developer.hashicorp.com/terraform/language">pseudo-code</a>.</p>
 <p>We then use <a href="https://www.terraform.io/">a tool</a> which reads this pseudo-code
 and talks to the cloud provider <a href="https://aws.amazon.com/what-is/api/">APIs</a> to
@@ -219,8 +224,7 @@ we help them by troubleshooting these deployments in order to find out where&rsq
 the issue. They mostly seem to think the issue is in our layer of the
 infrastructure (<em>the cluster</em>).</p>
 <p>Most of the time it turns out that the issue is not really in the cluster
-but in the YAML files they are writing to do their deployments and not really
-in the cluster.</p>
+but in the YAML files they are writing to do their deployments.</p>
 <p>This is currently my day-to-day job. A mixture of multiple technologies which
 no sane non-technicall people would like to talk about.</p>
 

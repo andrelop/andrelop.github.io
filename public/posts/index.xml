@@ -6,7 +6,18 @@
     <description>Recent content in Posts on andrelop.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Apr 2023 18:08:02 -0300</lastBuildDate><atom:link href="http://andrelop.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Apr 2023 21:18:08 -0300</lastBuildDate><atom:link href="http://andrelop.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testing Hugo VSCode Plugins</title>
+      <link>http://andrelop.org/posts/testing-hugo-vscode-plugins/</link>
+      <pubDate>Sat, 29 Apr 2023 21:18:08 -0300</pubDate>
+      
+      <guid>http://andrelop.org/posts/testing-hugo-vscode-plugins/</guid>
+      <description>Testing Hugo VSCode Plugins I&amp;rsquo;m testing VSCode plugins for Hugo, which is the static site generator solution I&amp;rsquo;m currently using.
+At first, I have no interest in plugins to help with syntax highlight or code completion. The only thing I need is a set of shortcuts for running some Hugo commands, like starting and stopping the Hugo server, building the site, creating new posts, etc.
+A plugin I found which does all of this is GoHugo.</description>
+    </item>
+    
     <item>
       <title>Update</title>
       <link>http://andrelop.org/posts/update/</link>

@@ -58,8 +58,7 @@ the issue. They mostly seem to think the issue is in our layer of the
  infrastructure (*the cluster*).
 
 Most of the time it turns out that the issue is not really in the cluster
-but in the YAML files they are writing to do their deployments and not really
-in the cluster.
+but in the YAML files they are writing to do their deployments.
 
 This is currently my day-to-day job. A mixture of multiple technologies which
 no sane non-technicall people would like to talk about.

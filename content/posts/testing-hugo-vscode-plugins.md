@@ -45,5 +45,5 @@ I just commit the changes from inside VSCode, push to GitHub and then the GitHub
 Actions pipeline already created on GitHub will run and the site will be deployed
 to GitHub Pages.
 
-After you publishes your new post, use the `GoHugo: Stop Server` option to stop the
+After you publish your new post, use the `GoHugo: Stop Server` option to stop the
 local Hugo server.

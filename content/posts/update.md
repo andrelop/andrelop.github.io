@@ -15,7 +15,7 @@ keyboard and I type at it the whole day, but I digress.
 
 I still work with infrastructure but it took me some time to understand that
 infrastructure now is not really *metal* (you do not really rack servers
-yourself in a [datacenter](https://aws.amazon.com/what-is/data-center/).
+yourself in a [datacenter](https://aws.amazon.com/what-is/data-center/)).
 
 I used to work on a company which had it's own datacenter so when people
 said that you worked with infrastructure there it most likely meant that

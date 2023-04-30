@@ -11,5 +11,5 @@ If for some reason you want to talk to me you can send me an email at andrelop@a
 
 I can also be found on Mastodon. I keep two profiles for Mastodon :
 
-* Write moslty in Brazilian Portuguese : [@andrelop@bolha.us](https://bolha.us/@andrelop)
-* Write mostly in English : [@andrelop@hachyderm.io ](https://hachyderm.io/@andrelop)
+* Written mostly in Brazilian Portuguese : [@andrelop@bolha.us](https://bolha.us/@andrelop)
+* Written mostly in English : [@andrelop@hachyderm.io ](https://hachyderm.io/@andrelop)

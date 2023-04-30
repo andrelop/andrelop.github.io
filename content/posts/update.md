@@ -25,7 +25,7 @@ amount of machines live in order to mess with [servers](https://en.wikipedia.org
 
 Today I work on an *infrastructure* team but there's no real physical
 infrastructure to be managed at all. We are using 100% cloud infrastructure
-and the team I'm working on is one the teams which *creates* infrastructure
+and the team I'm working on is one of the teams which *creates* infrastructure
 on the cloud by writing a bunch of [pseudo-code](https://developer.hashicorp.com/terraform/language).
 
 We then use [a tool](https://www.terraform.io/) which reads this pseudo-code

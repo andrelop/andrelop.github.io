@@ -1,7 +1,7 @@
 ---
 title: "Testing Hugo VSCode Plugins"
 date: 2023-04-29T21:18:08-03:00
-draft: true
+draft: false
 ---
 
 ## Testing Hugo VSCode Plugins

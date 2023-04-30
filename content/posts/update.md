@@ -20,7 +20,7 @@ yourself in a [datacenter](https://aws.amazon.com/what-is/data-center/)).
 I used to work on a company which had it's own datacenter so when people
 said that you worked with infrastructure there it most likely meant that
 you got your hands dirty and went to that cold place where a really large
-amount of servers live in order to mess with [servers](https://en.wikipedia.org/wiki/Server_(computing)),
+amount of machines live in order to mess with [servers](https://en.wikipedia.org/wiki/Server_(computing)),
  [cables](https://en.wikipedia.org/wiki/Networking_cables) and stuff.
 
 Today I work on an *infrastructure* team but there's no real physical
